@@ -7,10 +7,13 @@
 			p {
 				color : blue;
 			}
-		</style>
-		<style>
 			.grocery-list {
 				background-color : purple;
+				padding: 20px;
+				margin: 30px;
+			}
+			body {
+				background-color : pink;
 			}
 		</style>
 	</head>
@@ -31,5 +34,11 @@
 				<li>Eggs</li>
 			</ul>
 		</div>
+		<script>
+			let groceryList = document.querySelector(".grocery-list");
+			groceryList.style.backgroundColor = "yellow";
+			let warningText = "Don't Click the Secret!";
+			alert(warningText);
+		</script>
 	</body>
 </html>
